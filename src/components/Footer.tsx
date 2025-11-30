@@ -26,7 +26,11 @@ const Footer = ({ onNavigate }: FooterProps) => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="text-3xl">🐟</div>
+              <img 
+                src="https://cdn.poehali.dev/files/61b9c26a-921d-45fa-8a94-01db453022f7.jpg" 
+                alt="Рыбный Премиум" 
+                className="h-12 w-12 object-contain bg-white/10 rounded-full p-1"
+              />
               <div>
                 <h3 className="text-xl font-serif font-bold">Рыбный Премиум</h3>
                 <p className="text-sm text-white/70">Элитные морепродукты</p>

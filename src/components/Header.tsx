@@ -23,8 +23,12 @@ const Header = ({ activeSection, onNavigate }: HeaderProps) => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3">
-            <div className="text-3xl">🐟</div>
+          <div className="flex items-center gap-3 cursor-pointer" onClick={() => onNavigate('home')}>
+            <img 
+              src="https://cdn.poehali.dev/files/61b9c26a-921d-45fa-8a94-01db453022f7.jpg" 
+              alt="Рыбный Премиум" 
+              className="h-14 w-14 object-contain"
+            />
             <div>
               <h1 className="text-2xl font-serif font-bold text-primary">Рыбный Премиум</h1>
               <p className="text-xs text-muted-foreground">Элитные морепродукты</p>
