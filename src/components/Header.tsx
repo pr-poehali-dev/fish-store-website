@@ -26,11 +26,11 @@ const Header = ({ activeSection, onNavigate }: HeaderProps) => {
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => onNavigate('home')}>
             <img 
               src="https://cdn.poehali.dev/files/61b9c26a-921d-45fa-8a94-01db453022f7.jpg" 
-              alt="Рыбный Премиум" 
+              alt="FUGU" 
               className="h-14 w-14 object-contain"
             />
             <div>
-              <h1 className="text-2xl font-serif font-bold text-primary">Рыбный Премиум</h1>
+              <h1 className="text-2xl font-serif font-bold text-primary">FUGU</h1>
               <p className="text-xs text-muted-foreground">Элитные морепродукты</p>
             </div>
           </div>

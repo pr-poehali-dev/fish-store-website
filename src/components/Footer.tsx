@@ -28,11 +28,11 @@ const Footer = ({ onNavigate }: FooterProps) => {
             <div className="flex items-center gap-3 mb-4">
               <img 
                 src="https://cdn.poehali.dev/files/61b9c26a-921d-45fa-8a94-01db453022f7.jpg" 
-                alt="Рыбный Премиум" 
+                alt="FUGU" 
                 className="h-12 w-12 object-contain bg-white/10 rounded-full p-1"
               />
               <div>
-                <h3 className="text-xl font-serif font-bold">Рыбный Премиум</h3>
+                <h3 className="text-xl font-serif font-bold">FUGU</h3>
                 <p className="text-sm text-white/70">Элитные морепродукты</p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
         </div>
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-          <p>© {currentYear} Рыбный Премиум. Все права защищены.</p>
+          <p>© {currentYear} FUGU. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-accent transition-colors">Политика конфиденциальности</a>
             <a href="#" className="hover:text-accent transition-colors">Условия использования</a>
